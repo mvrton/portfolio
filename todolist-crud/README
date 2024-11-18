@@ -1,34 +1,42 @@
-# ToDoApp (CRUD de Tareas)
+# 📝 ToDo List CRUD App
 
-Una aplicación web para gestionar tareas, donde puedes agregar, eliminar, marcar como completadas o desmarcar tareas. Este proyecto se ha construido utilizando **Spring Boot** para el backend y **Thymeleaf** para la interfaz web.
+Una aplicación web sencilla pero poderosa para gestionar tus tareas diarias. Implementada con **HTML**, **Java**, y **Thymeleaf**, esta app permite crear, editar, marcar como completas y eliminar tareas. Todo en una interfaz intuitiva y moderna. 🚀
 
-## Funcionalidades
+---
 
-- **Añadir tareas**: Agrega nuevas tareas a la lista.
-- **Eliminar tareas**: Elimina tareas de la lista.
-- **Marcar como completada**: Cambia el estado de una tarea de "Pendiente" a "Completada".
-- **Desmarcar como completada**: Vuelve a poner una tarea como "Pendiente".
-- **Paginación**: Soporte para ver las tareas en múltiples páginas (con un máximo de 5 tareas por página).
+## 🌟 Características
 
-## Tecnologías utilizadas
+- **Añadir tareas**: Crea nuevas tareas para mantener tu día organizado.
+- **Editar tareas**: Cambia los detalles de tus tareas existentes.
+- **Eliminar tareas**: Limpia tu lista eliminando las tareas completadas o innecesarias.
+- **Marcar como completadas**: Lleva un control visual de las tareas que ya terminaste.
+- **Desmarcar tareas completadas**: Si necesitas volver a trabajar en una tarea, ¡sin problemas!
 
-- **Spring Boot**: Framework de Java para desarrollar el backend.
-- **Thymeleaf**: Motor de plantillas para la generación de vistas en el frontend.
-- **Java**: Lenguaje de programación utilizado para el backend.
-- **Bootstrap (opcional)**: Puede ser usado para mejorar el estilo visual de la aplicación (si decides integrarlo).
-- **Git**: Para la gestión del código fuente.
+---
 
-## Requisitos
+## 🚀 Tecnologías Usadas
 
-- **JDK 11 o superior**: Para ejecutar el proyecto.
-- **Maven**: Para gestionar dependencias y construir el proyecto.
-- **Base de datos H2**: Usada para almacenar las tareas (viene configurada por defecto, pero puede ser reemplazada por otra base de datos si se desea).
+- **Backend**: Java + Spring Boot.
+- **Frontend**: HTML + Thymeleaf.
+- **Base de Datos**: H2 para pruebas locales (puede cambiarse por MySQL, PostgreSQL, etc.).
 
-## Cómo ejecutar el proyecto
+---
 
-1. **Clonar el repositorio:**
+## 🖼️ Capturas de Pantalla
 
-   Para clonar el repositorio en tu máquina local, usa el siguiente comando:
+### 1️⃣ Vista principal: Lista de Tareas
+Una visión clara de todas tus tareas. Las completadas se muestran diferenciadas visualmente.
 
-   ```bash
-   git clone https://github.com/mvrton/portfolio.git
+![Vista Principal](images/imagen1.png)
+
+---
+
+### 2️⃣ Editar una tarea
+Actualiza los detalles de una tarea con facilidad.
+
+![Editar Tarea](images/imagen2.png)
+
+---
+
+## 📚 Estructura del Proyecto
+
