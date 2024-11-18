@@ -27,14 +27,14 @@ Una aplicación web sencilla pero poderosa para gestionar tus tareas diarias. Im
 ### 1️⃣ Vista principal: Lista de Tareas
 Una visión clara de todas tus tareas. Las completadas se muestran diferenciadas visualmente.
 
-![Vista Principal](prueba1.png)
+![Vista Principal](Prueba1.png)
 
 ---
 
 ### 2️⃣ Editar una tarea
 Actualiza los detalles de una tarea con facilidad.
 
-![Editar Tarea](prueba2.png)
+![Editar Tarea](Prueba2.png)
 
 ---
 
