@@ -19,9 +19,6 @@ Aquí están algunos de los proyectos que puedes encontrar en mi portfolio:
    - **Enlace al proyecto**: [https://github.com/mvrton/portfolio/tree/main/todolist-crud]
 
 ### 2. **[En proceso]**
-   - **Descripción**: Breve descripción del proyecto.
-   - **Tecnologías**: Lista de tecnologías utilizadas.
-   - **Enlace al proyecto**: [Enlace al repositorio](https://github.com/tu_usuario/nombre-del-proyecto)
 
 ## 🔧 Cómo probar los proyectos
 
