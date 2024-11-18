@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Editar Tarea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .edit-task-container {
+            width: 100%;
+            max-width: 400px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px; /* Mejorar la legibilidad */
+        }
+
+        button {
+            padding: 10px;
+            background-color: #6bc1ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px; /* Igual que los botones de la lista */
+            margin-top: 10px; /* Espaciado superior */
+            width: 100%; /* Asegura que el botón ocupe todo el ancho */
+        }
+
+        button:hover {
+            background-color: #44aaff;
+        }
+
+        .cancel-button {
+            background-color: #ff6b6b;
+            margin-top: 10px;
+        }
+
+        .cancel-button:hover {
+            background-color: #ff4a4a;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Editar Tarea</h1>
+    <div class="edit-task-container">
+        <form th:action="@{/tasks/update}" method="post">
+            <input type="hidden" name="id" th:value="${task.id}" />
+            <input type="text" name="name" th:value="${task.name}" required placeholder="Nombre de la tarea" />
+            <input type="hidden" name="page" th:value="${currentPage}" /> <!-- Página actual -->
+            <button type="submit">Guardar</button>
+            <a th:href="@{/tasks/view(page=${currentPage})}">
+                <button type="button" class="cancel-button">Cancelar</button>
+            </a>
+        </form>
+    </div>
+</body>
+</html>
