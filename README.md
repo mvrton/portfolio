@@ -16,7 +16,7 @@ Aquí están algunos de los proyectos que puedes encontrar en mi portfolio:
 ### 1. **To-Do List App**
    - **Descripción**: Una aplicación web de lista de tareas donde puedes añadir, eliminar, marcar y desmarcar tareas como completadas.
    - **Tecnologías**: Java, Spring Boot, Thymeleaf, H2.
-   - **Enlace al proyecto**: [Enlace al repositorio](https://github.com/tu_usuario/to-do-list)
+   - **Enlace al proyecto**: [https://github.com/mvrton/portfolio/tree/main/todolist-crud]
 
 ### 2. **[En proceso]**
    - **Descripción**: Breve descripción del proyecto.

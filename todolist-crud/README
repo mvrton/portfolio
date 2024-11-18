@@ -1,0 +1,34 @@
+# ToDoApp (CRUD de Tareas)
+
+Una aplicación web para gestionar tareas, donde puedes agregar, eliminar, marcar como completadas o desmarcar tareas. Este proyecto se ha construido utilizando **Spring Boot** para el backend y **Thymeleaf** para la interfaz web.
+
+## Funcionalidades
+
+- **Añadir tareas**: Agrega nuevas tareas a la lista.
+- **Eliminar tareas**: Elimina tareas de la lista.
+- **Marcar como completada**: Cambia el estado de una tarea de "Pendiente" a "Completada".
+- **Desmarcar como completada**: Vuelve a poner una tarea como "Pendiente".
+- **Paginación**: Soporte para ver las tareas en múltiples páginas (con un máximo de 5 tareas por página).
+
+## Tecnologías utilizadas
+
+- **Spring Boot**: Framework de Java para desarrollar el backend.
+- **Thymeleaf**: Motor de plantillas para la generación de vistas en el frontend.
+- **Java**: Lenguaje de programación utilizado para el backend.
+- **Bootstrap (opcional)**: Puede ser usado para mejorar el estilo visual de la aplicación (si decides integrarlo).
+- **Git**: Para la gestión del código fuente.
+
+## Requisitos
+
+- **JDK 11 o superior**: Para ejecutar el proyecto.
+- **Maven**: Para gestionar dependencias y construir el proyecto.
+- **Base de datos H2**: Usada para almacenar las tareas (viene configurada por defecto, pero puede ser reemplazada por otra base de datos si se desea).
+
+## Cómo ejecutar el proyecto
+
+1. **Clonar el repositorio:**
+
+   Para clonar el repositorio en tu máquina local, usa el siguiente comando:
+
+   ```bash
+   git clone https://github.com/mvrton/portfolio.git
